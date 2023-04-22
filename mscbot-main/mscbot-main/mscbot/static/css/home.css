@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #222;
+}
+
+#chatbot-messages {
+    /* Chatbot messages container styles */
+}
+
+#chatbot-input-container {
+    /* Chatbot input container styles */
+}
+
+#chatbot-options {
+    /* border: 2px solid gray; */
+}
+
+#options-list {
+    /* Options list styles */
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#options-list li {
+    cursor: pointer;
+    margin-bottom: 15px;
+    MARGIN-LEFT: 10PX;
+    width: 200px;
+    border: 0.8px solid rgb(174, 173, 173);
+    border-radius: 24px;
+    padding: 9px 7px;
+    background: #e8e5e5;
+    text-align: center;
+}
+
+#options-list li:hover {
+    /* Option item hover styles */
+    color: rgb(151, 151, 162);
+}
